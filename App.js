@@ -8,9 +8,9 @@ import LoginForm from './src/UI/components/LoginForm';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Saludar/>
-      <Saludar/>
-      <Saludar/>
+      <Saludar name="Exequiel Wiedermann"/>
+      <Saludar name="Exequiel Wiedermann"/>
+      <Saludar name="Exequiel Wiedermann"/>
     </View>
   );
 }
