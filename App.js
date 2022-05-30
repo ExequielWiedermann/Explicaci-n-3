@@ -8,9 +8,11 @@ import LoginForm from './src/UI/components/LoginForm';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Saludar name="Exequiel Wiedermann"/>
-      <Saludar name="Exequiel Wiedermann"/>
-      <Saludar name="Exequiel Wiedermann"/>
+      <Saludar firstname="Exequiel" lastname="Wiedermann"/>
+      {/*
+        Para enviar números en una variable es con {}        
+      */}
+      <Saludar firstname="Agustín" lastname={28}/>
     </View>
   );
 }
