@@ -10,7 +10,9 @@ export default function App() {
     <View style={styles.container}>
       <Saludar firstname="Exequiel" lastname="Wiedermann"/>
       {/*
-        Para enviar números en una variable es con {}        
+        Para enviar números en una variable es con {}
+        
+        Explicar porque la aplicación anda igual si enviamos algo que no es
       */}
       <Saludar firstname="Agustín" lastname={28}/>
     </View>
