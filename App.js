@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Saludar from './src/UI/components/Saludar';
+import HorarioForm from './src/UI/components/HorarioForm';
+import InformeForm from './src/UI/components/InformeForm';
+import LoginForm from './src/UI/components/LoginForm';
 
 //Acá conecto mis pantallas
 
@@ -14,8 +16,10 @@ import Saludar from './src/UI/components/Saludar';
 export default function App() {
   return (
     <View style={styles.container}>
-      
-      <Saludar name="Exequiel Wiedermann"/>
+    
+    <InformeForm/>
+    <LoginForm/>
+    <HorarioForm/>
 
     </View>
   );
