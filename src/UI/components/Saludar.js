@@ -6,6 +6,8 @@ export default function Saludar(props){
     const {name} = props;
     console.log(name);
 
+    //Los props los usamos para enviar de una pantalla a otra (manejan estados!!!)
+
     //El return es jsx!!!
     //Las variables se envuelven entre {}
     return <Text>Pesadillas {name}</Text>
